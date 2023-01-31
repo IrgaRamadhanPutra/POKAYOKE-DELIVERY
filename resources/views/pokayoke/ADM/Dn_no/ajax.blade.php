@@ -117,10 +117,10 @@
                                 var Rm = $('#myTable').DataTable();
                                 var convrtArr = Rm.rows().data().toArray();
                                 var len = convrtArr.length;
-                                console.log(convrtArr);
+                                // console.log(convrtArr);
                                 for (var i = 0; i < len; i++) {
                                     var a = convrtArr[i][3];
-                                    console.log(a);
+                                    // console.log(a);
                                     if (a == 0) {
                                         document.getElementById('Audiosucces').play();
                                         swal.fire({
@@ -152,51 +152,6 @@
 
 
                     }
-
-
-
-                    // }
-
-
-                    // }
-                    //
-                    // if (data == '-') {
-                    //     $('#input').val("");
-                    //     $('#input').focus();
-                    // } else {
-
-
-                    // success: function(data) {
-                    //     console.log(data);
-                    //     if (data == '-') {
-                    //         $('#input').val("");
-                    //         $('#input').focus();
-                    //     } else {
-                    //         input.attr("readonly", true);
-
-                    //     }
-                    //     //
-
-                    // }
-
-
-
-                    // success: function(data) {
-                    //     console.log(data);
-                    //     if (data == '-') {
-                    //         $('#input').val("");
-                    //         $('#input').focus();
-                    //     }
-                    //     input.attr("readonly", true);
-                    //
-                    //
-                    // }
-                    // "columnDefs": [{
-                    //     .dataTables_filter {
-                    //         display: none;
-                    // }
-                    // }]
-                    // "searching": false
                 });
 
             } else {
